@@ -1,0 +1,9 @@
+package:
+  name: python-gdb
+  version: 0.1.0
+
+source:
+  dir: ../cpython-3.6.8
+
+build:
+  no_link: bin/python
